@@ -1,0 +1,27 @@
+{
+  "name": "fortnite-status-notifier",
+  "version": "1.0.0",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/index.js",
+    "watch": "tsc --watch",
+    "clean": "rm -rf dist",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "fortnite"
+  ],
+  "author": "Camila Martinez",
+  "license": "MIT",
+  "description": "",
+  "devDependencies": {
+    "@biomejs/biome": "1.9.3",
+    "@types/node": "^22.7.5",
+    "typescript": "^5.6.3"
+  },
+  "dependencies": {
+    "@types/jsdom": "^21.1.7",
+    "jsdom": "^25.0.1"
+  }
+}
